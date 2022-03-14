@@ -1,0 +1,50 @@
+.animate{
+    background-color: blue;
+    width: 205px;
+    height: 5px;
+    bottom: 0;
+    position: absolute;
+    transition: all .5s ease 0s;
+}
+ul .start-login,li:nth-child(1):hover ~ .animate{
+    width: 205px;
+    left: 0px;
+}
+ul .start-signup,li:nth-child(2):hover ~ .animate{
+    width: 214px;
+    left: 205px;
+}
+ul li a{
+    position: relative;
+    z-index: 1;
+}
+li:nth-child(1){
+    
+}
+li:nth-child(2){
+    
+}
+/*
+.animate{
+    background-color: red !important;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li:first-child{
+    background-color: royalblue;
+}
+.li1:focus ~ .animate{
+    left: 0;
+}
+li:nth-child(2){
+    background-color: rebeccapurple;
+}
+.li2:focus ~ .animate{
+    left: 300px;
+}
